@@ -36,7 +36,7 @@ public class Roles {
 	static public String listado() {
 		String formato1 = "%1$-5s";
 		String formato2 = "%1$-15s";
-		String formato3 = "%1$-30s";
+
 
 		return "| " + String.format(formato1, "Codigo")+
 			   "| " + String.format(formato2, "Descripción")+
@@ -47,7 +47,6 @@ public class Roles {
 	public String toString() {
 		String formato1 = "%1$-5s";
 		String formato2 = "%1$-15s";
-		String formato3 = "%1$-30s";
 
 		return "| " + String.format(formato1, this.codigo)+
 			   "| " + String.format(formato2, this.descripcion)+

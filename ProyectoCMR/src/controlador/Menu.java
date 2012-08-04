@@ -53,9 +53,14 @@ public class Menu {
 		    case 6:
 		    	break;
 		    case 7:
+		    	RolesControlador p2 = new RolesControlador();
+		    	p2.menu();
+		    	
 		    	break;
 		    default:
+
 		    	break;
+
 		    }
 		    
 		} while (numero != 0);
@@ -67,3 +72,4 @@ public class Menu {
 
 	}
 }
+
